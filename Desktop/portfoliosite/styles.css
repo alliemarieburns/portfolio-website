@@ -1,0 +1,123 @@
+html {
+    background-image: url("http://i67.tinypic.com/2r24y8p.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+    background-color:#BD6B73;
+}
+
+::selection {
+    background: #EAD0D2; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: #EAD0D2; /* Gecko Browsers */
+  }
+
+ul {
+    display: flex;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}  
+
+#navbar {
+    font-family: 'Raleway', sans-serif;
+    color: white !important;
+    background-color: #BD6B73 !important;
+    padding: auto;
+    text-transform: lowercase;
+}
+
+.navbar-brand {
+    font-size: 15px;
+    text-transform: lowercase;
+}
+
+.main {
+    background-color: #EEE6DC;
+    max-width: 80%;
+    width: 775px;
+    height: 520px;
+    overflow: hidden;
+    /* keeps the main div centered on the page*/
+    margin-top: 320px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.body{
+    padding:30px;
+}
+
+.header-text {
+    height:100%; 
+    padding-top: 20px;
+    text-align: left;
+    font-family: 'Overpass', sans-serif;
+}
+
+.body-text {
+    padding-top: 20px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.social-links {
+    display:block;
+    background-color:#BD6B73;
+    padding-top: 5px;
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#footer-text {
+    color: #EEE6DC;
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.fab, .fas {
+    color:white;
+    padding: 2px;
+    margin-bottom: 2px;
+    font-size: 24px;
+    
+}
+
+
+.fab:hover{
+    opacity: .7;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+}
+
+.fas:hover{
+    opacity: .7;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+}
+
+
+.nav-item:hover {
+    transition: opacity .3s ease-in;
+    -moz-transition: opacity .3s ease-in;
+    -webkit-transition: opacity .3s ease-in;
+    -o-transition: opacity .3s ease-in;
+}
+
+/* @media screen and (max-width: 823){
+    background-color: #BD6B73;
+
+} */
